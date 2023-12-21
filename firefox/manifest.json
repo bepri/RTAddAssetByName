@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "RTAddAssetByName",
+    "version": "1.0.2",
+
+    "description": "Adds a new input field to RT to add an asset by name",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/Ticket/Display.html*"],
+            "js": [ "contentscript.js" ],
+            "css": [ "style.css" ]
+        }
+    ]
+}

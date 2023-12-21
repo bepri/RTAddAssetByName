@@ -8,6 +8,7 @@ div#add-asset-by-name-button {
 	padding: 0.5em;
 	font-size: 1.0em;
 	-webkit-appearance: push-button;
+	appearance: push-button;
 	user-select: none;
 	white-space: pre;
 	align-items: flex-start;
@@ -15,6 +16,7 @@ div#add-asset-by-name-button {
 	cursor: default;
 	box-sizing: border-box;
 	-webkit-writing-mode: horizontal-tb !important;
+	writing-mode: horizontal-tb !important;
 	text-rendering: auto;
 	letter-spacing: normal;
 	word-spacing: normal;
@@ -25,7 +27,7 @@ div#add-asset-by-name-button {
 	-webkit-rtl-ordering: logical;
 	margin: 0em;
 	font: 400 13.3333px Arial;
-	width: 30px
+	width: 30px;
 	height: 30px;
 	padding: 6.5px 9.75px;
 }
